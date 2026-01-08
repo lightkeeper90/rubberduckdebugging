@@ -403,9 +403,33 @@
             margin-bottom: 15px;
         }
 
-        .drop-zone p {
+     .drop-zone p {
             font-size: 1.4rem;
             color: #666;
+        }
+
+        .drop-zone-fun {
+            font-size: 1.1rem !important;
+            color: var(--duck-orange) !important;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        }
+
+        .drop-zone-fun {
+            font-size: 1.1rem !important;
+            color: var(--duck-orange) !important;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        }
+
+        .drop-zone-fun {
+            font-size: 1.1rem !important;
+            color: var(--duck-orange) !important;
+            font-style: italic;
+            margin-top: 8px;
+        }
         }
 
         .file-input {
@@ -1274,6 +1298,7 @@
             <div class="drop-zone-icon">📁<span class="inline-duck inline-duck-lg"></span></div>
             <h2>DROP YOUR FILES HERE!</h2>
             <p>Drag & drop your code files, or click to browse</p>
+<p class="drop-zone-fun">No bugs to squash? Upload a random file and watch it cook!</p>
             <input type="file" id="fileInput" class="file-input" multiple accept=".js,.jsx,.ts,.tsx,.py,.html,.css,.json,.php,.rb,.java,.c,.cpp,.go,.rs,.jpg,.jpeg,.png,.gif,.webp,.mp3,.wav,.mp4,.mov,.avi,.mkv">
             <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
                 SELECT FILES
