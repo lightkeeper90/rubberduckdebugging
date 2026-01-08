@@ -98,6 +98,31 @@
             box-shadow: 0 2px 0 #CC7A00;
         }
 
+        .twitter-btn {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 0.5rem;
+            color: white;
+            background: linear-gradient(180deg, #1DA1F2 0%, #0d8bd9 100%);
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 3px 0 #0a6da8;
+            transition: all 0.1s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .twitter-btn:hover {
+            transform: translateY(1px);
+            box-shadow: 0 2px 0 #0a6da8;
+        }
+
+        .twitter-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 1px 0 #0a6da8;
+        }
+
         .ca-copy-btn:active {
             transform: translateY(2px);
             box-shadow: 0 1px 0 #CC7A00;
@@ -1216,6 +1241,7 @@
             <span class="ca-label">CA:</span>
             <span class="ca-address" id="caAddress">rubberduckdebuggingpumpfun</span>
             <button class="ca-copy-btn" onclick="copyCA()">📋 COPY</button>
+            <a href="https://x.com/0xdebugduck" target="_blank" class="twitter-btn">𝕏 TWITTER</a>
         </div>
     </div>
 
